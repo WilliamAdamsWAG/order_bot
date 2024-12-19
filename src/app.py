@@ -13,6 +13,7 @@ from backend.templates import Templates
 
 class App:
     """ The base class of the bot, which describes the parameters of its launch """
+    # 7256148389:AAGL9A9mUsjwPrcJS7U8jo95bRNsY_ycz2k
     TOKEN = os.environ.get("TELEGRAM_API_TOKEN")
     
     def __init__(self) -> None:
